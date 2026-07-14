@@ -1,0 +1,38 @@
+[
+  {
+    "projects": [
+      {
+        "title": "OmniCore Enterprise Suite",
+        "category": "ERP",
+        "status": "deployed",
+        "description": "A comprehensive resource planning solution streamlining operations across 15+ global manufacturing facilities with real-time data synchronization.",
+        "techStack": ["React", "Node.js", "PostgreSQL", "Docker"],
+        "clientName": "Fincorp"
+      },
+      {
+        "title": "FinSync Mobile",
+        "category": "Mobile Apps",
+        "status": "In Development",
+        "description": "Secure, low-latency financial tracking application designed for high-frequency traders.",
+        "techStack": ["React Native", "TypeScript", "Node.js"],
+        "clientName": "Fincorp"
+      },
+      {
+        "title": "RetailForge POS",
+        "category": "POS",
+        "status": "deployed",
+        "description": "Cloud-native point of sale system with offline resilience for high-volume retail environments.",
+        "techStack": ["React", "Node.js", "PostgreSQL"],
+        "clientName": "Logistix"
+      },
+      {
+        "title": "LogixNet Global Dashboard",
+        "category": "Websites",
+        "status": "deployed",
+        "description": "A high-performance logistics routing and analytics dashboard, processing millions of data points daily to optimize supply chain efficiency.",
+        "techStack": ["Next.js", "TypeScript", "PostgreSQL", "Docker"],
+        "clientName": "Logistix"
+      }
+    ]
+  }
+]
