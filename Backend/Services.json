@@ -1,0 +1,133 @@
+[
+  {
+    "services": [
+      {
+        "title": "Website Development",
+        "icon": "language",
+        "description": "Full-stack web solutions utilizing modern frameworks to deliver highly responsive, accessible, and performant user experiences.",
+        "features": [
+          "Custom Web Applications",
+          "Corporate Portals",
+          "E-commerce Platforms"
+        ],
+        "technologies": ["React", "Node.js", "PostgreSQL"],
+        "sortOrder": 1
+      },
+      {
+        "title": "Mobile Applications",
+        "icon": "smartphone",
+        "description": "Native and cross-platform mobile applications engineered for optimal performance, deep device integration, and seamless user journeys across iOS and Android ecosystems.",
+        "features": [
+          "iOS Native App Development",
+          "Android Native App Development",
+          "Cross-Platform Solutions"
+        ],
+        "technologies": ["Flutter", "Swift", "Kotlin"],
+        "sortOrder": 2
+      },
+      {
+        "title": "ERP / CRM Solutions",
+        "icon": "account_tree",
+        "description": "Custom ERP and CRM solutions tailored to streamline operations, integrate disparate data sources, and optimize business processes.",
+        "features": [
+          "Process Automation",
+          "Data Integration",
+          "Custom CRM Modules"
+        ],
+        "technologies": ["SAP", "Oracle", "Salesforce"],
+        "sortOrder": 3
+      },
+      {
+        "title": "POS Systems",
+        "icon": "point_of_sale",
+        "description": "Robust Point of Sale solutions tailored for retail and hospitality, ensuring seamless transactions.",
+        "sortOrder": 4
+      },
+      {
+        "title": "UI/UX Design",
+        "icon": "design_services",
+        "description": "Comprehensive design system creation, focusing on usability, accessibility, and translating complex logic into intuitive interfaces.",
+        "features": [
+          "User Research & Wireframing",
+          "High-Fidelity Prototyping",
+          "Design System Architecture"
+        ],
+        "technologies": ["Figma", "Tailwind"],
+        "sortOrder": 5
+      },
+      {
+        "title": "API Development",
+        "icon": "api",
+        "description": "RESTful and GraphQL API design, building resilient microservice architectures for decoupled, scalable systems.",
+        "features": [
+          "Third-party Integrations",
+          "Custom REST/GraphQL APIs",
+          "Microservices Architecture"
+        ],
+        "technologies": ["GraphQL", "Go", "Docker"],
+        "sortOrder": 6
+      },
+      {
+        "title": "Maintenance & Support",
+        "icon": "build",
+        "description": "Ongoing proactive maintenance, security patching, and technical support to ensure system longevity and uptime.",
+        "features": [
+          "24/7 Monitoring",
+          "Performance Optimization",
+          "Security Audits"
+        ],
+        "technologies": ["AWS", "Datadog", "Kubernetes"],
+        "sortOrder": 7
+      }
+    ],
+    "howWeWork": [
+      {
+        "title": "Discovery",
+        "description": "We dive deep into your requirements, target audience, and business goals.",
+        "sortOrder": 1
+      },
+      {
+        "title": "Architecture",
+        "description": "Planning the technical stack, system design, and project roadmap.",
+        "sortOrder": 2
+      },
+      {
+        "title": "Development",
+        "description": "Agile execution with regular sprints, code reviews, and transparent updates.",
+        "sortOrder": 3
+      },
+      {
+        "title": "Testing",
+        "description": "We conduct rigorous testing to ensure functionality, performance, and security before deployment.",
+        "sortOrder": 4
+      },
+      {
+        "title": "Deployment & Support",
+        "description": "Rigorous QA, deployment, and hand-off to ensure immediate value generation.",
+        "sortOrder": 5
+      }
+    ],
+    "faq": [
+      {
+        "title": "What is a typical project timeline?",
+        "description": "Timelines vary depending on project complexity. A standard web application MVP typically takes 8-12 weeks, while enterprise ERP systems or complex mobile apps may require 4-6 months of development.",
+        "sortOrder": 1
+      },
+      {
+        "title": "How do you estimate cost?",
+        "description": "We provide transparent pricing based on project scope, required resources, and technical complexity. We offer both fixed-price contracts for well-defined scopes and time-and-materials arrangements for agile ongoing development.",
+        "sortOrder": 2
+      },
+      {
+        "title": "Do you provide ongoing maintenance?",
+        "description": "Yes, we offer comprehensive SLA-based maintenance packages that include security patching, dependency updates, performance monitoring, and bug fixes to keep your software running smoothly post-launch.",
+        "sortOrder": 3
+      },
+      {
+        "title": "Can you build mobile apps for both iOS and Android?",
+        "description": "Absolutely. We develop both native apps (using Swift and Kotlin) and cross-platform solutions (using frameworks like Flutter) to ensure optimal reach and performance across all major mobile operating systems.",
+        "sortOrder": 4
+      }
+    ]
+  }
+]
