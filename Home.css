@@ -6,6 +6,7 @@ body{
     background-color: #faf3e1;
     font-family:poppins;
     margin:20px;
+    margin-left:50px;
     color:#222222;
 }
 nav{
@@ -45,15 +46,17 @@ nav ul li a:hover{
 nav ul li a.active{
     color: #FF6D1F;
 }
-nav .Getquote{
+nav .GetQuote{
     color:#222222;
     background-color: #FF6D1F;
     text-decoration: none;
     display:block;
-    height:auto;
     width: 110px;
+    font-weight: 500;
     border:solid #FF6D1F 1px;
-    padding:30px;
+    padding:20px;
+   margin-top:25px;
+
 }
 nav .menu-btn{
     display: none;
@@ -79,7 +82,34 @@ nav .menu-btn.active i:after{
 
 
 /*hero section*/
-div section .next-gen{
-    border:#FF6D1F solid 1px;
-
+div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div .hero{
+    justify-content: space-between;
+    align-items: center;
+}
+div  .hero .next-gen{
+    font-size: 15px;
+    color:#faf3e1;
+    font-weight:bold;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #222222;
+    border:solid #222222 1px;
+    border-radius: 50px;
+    width: 200px;
+      text-transform: uppercase;
+}
+div .hero h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 500px;
+}
+div .hero h1 .highlight{
+    color: #FF6D1F;
 }
