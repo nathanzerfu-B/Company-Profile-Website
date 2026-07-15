@@ -90,6 +90,8 @@ div{
 div .hero{
     justify-content: space-between;
     align-items: center;
+    margin: 150px;
+    margin-left: 80px;
 }
 div  .hero .next-gen{
     font-size: 15px;
@@ -113,3 +115,38 @@ div .hero h1{
 div .hero h1 .highlight{
     color: #FF6D1F;
 }
+div .hero p{
+    font-size: 18px;
+    line-height: 1.5;
+    width: 600px;
+    margin-bottom: 20px;
+}
+div .hero span.hero-buttons{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+div .hero span.hero-buttons button{
+    background-color: #FF6D1F;
+    color: #222222;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight:300;
+    border-radius: 7px;
+}
+div .hero span.hero-buttons button:hover{
+    background-color: #222222;
+    color: #FF6D1F;
+}
+div .hero span.hero-buttons button:last-child{
+    background-color: #faf3e1;
+    color: #FF6D1F;
+    border: solid #222222 1px;
+}
+
+
