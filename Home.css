@@ -4,7 +4,7 @@
 }
 body{
     background-color: #faf3e1;
-    font-family:poppins;
+    font-family:plus-jakarta-sans, sans-serif;
     margin:20px;
     margin-left:50px;
     color:#222222;
@@ -107,10 +107,10 @@ div  .hero .next-gen{
       text-transform: uppercase;
 }
 div .hero h1{
-    font-size: 70px;
+    font-size: 80px;
     font-weight: bold;
     margin-bottom: 20px;
-    width: 500px;
+    width: 600px;
 }
 div .hero h1 .highlight{
     color: #FF6D1F;
@@ -132,21 +132,25 @@ div .hero span.hero-buttons button{
     background-color: #FF6D1F;
     color: #222222;
     border: none;
-    padding: 10px 20px;
-    margin-right: 10px;
+    padding: 20px 40px;
+    margin-left:15px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     font-weight:300;
     border-radius: 7px;
 }
 div .hero span.hero-buttons button:hover{
-    background-color: #222222;
-    color: #FF6D1F;
+    background-color: #e68856;
+    opacity: 0.3;
 }
 div .hero span.hero-buttons button:last-child{
     background-color: #faf3e1;
-    color: #FF6D1F;
+    color: #222222;
     border: solid #222222 1px;
+}
+div .hero span.hero-buttons button:last-child:hover{
+    background-color: #222222;
+    color: #faf3e1;
 }
 
 
