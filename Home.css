@@ -182,5 +182,84 @@ div .hero img{
     font-weight: 600;
     color:rgb(74 71 58 / var(--tw-text-opacity, 1));
 }
+.OurServices{
+    margin: 50px;
+    margin-left: 50px;
+    display:block;
+}
+.OurServices h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.OurServices p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+.OurServices .service-container{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+.OurServices .service{
+    display: block;
+    margin-bottom: 40px;
+    background-color: #222222;
+    color: #faf3e1;
+    padding: 20px;
+}
+OurServices .service img{
 
+}
+.OurServices .service h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.OurServices .service p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.OurServices .service a{
+    text-decoration: none;
+    color: #faf3e1;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+
+.OurServices .service a:hover{
+    opacity: 1;
+}
+.OurServices .service a:after{
+    content: "→";
+    margin-left: 5px;
+}
+
+.whychooseus{
+    margin: 50px;
+    margin-left: 50px;
+    display:block;
+}
+.whychooseus h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  justify-content: center;
+}
+.whychooseus p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+.whychooseus .chooseus-container{
+    display: block;
+    justify-content: space-between;
+    overflow-x: auto;
+}
 
