@@ -1,0 +1,99 @@
+[
+  {
+    "ourStory": {
+      "name": "DevForge",
+      "story": "Founded in 2026, DevForge started as a small team by The Dictator N...",
+      "mission": "Make Money with software.",
+      "vision": "Be Africa's most trusted software partner."
+    },
+    "coreValues": [
+      {
+        "title": "Quality",
+        "description": "We deliver high-quality software solutions that meet and exceed client expectations."
+      },
+      {
+        "title": "Integrity",
+        "description": "We uphold the highest standards of integrity in all our actions."
+      },
+      {
+        "title": "Innovation",
+        "description": "We foster a culture of innovation, encouraging creative solutions to complex problems."
+      },
+      {
+        "title": "Teamwork",
+        "description": "We believe in the power of collaboration and teamwork to achieve common goals."
+      },
+      {
+        "title": "Continuous Learning",
+        "description": "We are committed to continuous learning and professional development."
+      }
+    ],
+    "teamMembers": [
+      {
+        "img": "Put the DICTATOR image link here",
+        "name": "DICTATOR Nat",
+        "role": "CEO & Founder",
+        "sortOrder": 1
+      },
+      {
+        "img": "Put the Camper image link here",
+        "name": "Camper SMith",
+        "role": "ui/ux designer",
+        "sortOrder": 2
+      },
+      {
+        "img": "Put the Samstark image link here",
+        "name": "Samstark",
+        "role": "Backend Developer",
+        "sortOrder": 3
+      }
+    ],
+    "developmentProcess": [
+      {
+        "title": "Discovery",
+        "description": "Understanding your business needs, target audience, and project goals to ensure alignment from day one.",
+        "sortOrder": 1
+      },
+      {
+        "title": "Planning",
+        "description": "Defining project scope, milestones, resource allocation, and technical requirements for a smooth execution.",
+        "sortOrder": 2
+      },
+      {
+        "title": "Design",
+        "description": "Creating intuitive user interfaces and robust system architectures tailored to your specific requirements.",
+        "sortOrder": 3
+      },
+      {
+        "title": "Development",
+        "description": "Writing clean, efficient, and scalable code following agile methodologies and best practices.",
+        "sortOrder": 4
+      },
+      {
+        "title": "Testing",
+        "description": "Rigorous automated and manual testing to ensure quality, security, and performance across all environments.",
+        "sortOrder": 5
+      },
+      {
+        "title": "Deployment",
+        "description": "Seamless release to production environments with minimal downtime and continuous monitoring.",
+        "sortOrder": 6
+      },
+      {
+        "title": "Support",
+        "description": "Ongoing maintenance, updates, and technical assistance to ensure your systems run flawlessly.",
+        "sortOrder": 7
+      }
+    ],
+    "technologies": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "TypeScript",
+      "Tailwind CSS",
+      "Docker",
+      "Git",
+      "Linux"
+    ]
+  }
+]
