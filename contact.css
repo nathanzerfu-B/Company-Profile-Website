@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #faf3e1;
+  font-family: sans-serif;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #1a1a1a;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+  color: #555;
+}
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+a:hover {
+  color: #ff6d1f;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #faf3e1;
+  border-bottom: 1px solid #ddd;
+}
+nav a.logo {
+  color: #ff6d1f;
+  font-size: 22px;
+  font-weight: 600;
+}
+nav .navLinks {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+nav ul li a {
+  font-size: 16px;
+  font-weight: 400;
+}
+nav .navRight {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.quoteBtn {
+  background-color: #ff6d1f;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.quoteBtn:hover {
+  background-color: #e05a10;
+}
+nav select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 14px;
+}
+
+button {
+  font-family: sans-serif;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 18px;
+  background-color: #ff6d1f;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+button:hover {
+  background-color: #e05a10;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 60px 40px 20px 40px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #ff6d1f;
+}
+.footTop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+.footBrand {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-basis: 30%;
+}
+.footBrand a {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ff6d1f;
+}
+.footBrand p {
+  color: #ccc;
+}
+.footCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footCol h3 {
+  color: white;
+  font-size: 16px;
+}
+.footCol ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+}
+.footCol p {
+  color: #ccc;
+}
+.footBottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+.footBottom p {
+  color: #ccc;
+}
+.footBottom ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+}
