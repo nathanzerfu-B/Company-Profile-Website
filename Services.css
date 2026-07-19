@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #faf3e1;
+    font-family:plus-jakarta-sans, sans-serif;
+    color:#222222;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    border:#222222 solid 1px;
+}
+nav .logo{
+    color: #FF6D1F;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+justify-content: space-between;
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: #FF6D1F;
+}
+nav ul li a.active{
+    color: #FF6D1F;
+}
+nav .GetQuote{
+    color:#222222;
+    background-color: #FF6D1F;
+    text-decoration: none;
+    display:block;
+    width: 110px;
+    font-weight: 500;
+    border:solid #FF6D1F 1px;
+    padding:20px;
+
+}
+nav .menu-btn{
+    display: none;
+}
+nav .menu-btn i{
+    font-size: 24px;
+    color: #222222;
+    cursor: pointer;
+}
+
+nav .menu-btn i:hover{
+    color: #FF6D1F;
+}
+nav .menu-btn.active i{
+    color: #FF6D1F;
+}
+nav .menu-btn.active i:before{
+    content: "\f00d";
+}
+nav .menu-btn.active i:after{
+    content: "";
+}

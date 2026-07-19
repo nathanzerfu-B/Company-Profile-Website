@@ -1,0 +1,21 @@
+[
+  {
+    "company": {
+      "name": "DevForge",
+      "email": "hello@dictator.com",
+      "phone": "+259-11-5850-6479",
+      "address": "Bole Road, Addis Ababa",
+      "officeHours": {
+        "weekdays": "Mon-Fri 9AM-6PM",
+        "saturday": "10AM-4PM",
+        "sunday": "Closed"
+      },
+      "socialLinks": [
+        { "platform": "LinkedIn", "url": "#" },
+        { "platform": "GitHub", "url": "#" },
+        { "platform": "Facebook", "url": "#" },
+        { "platform": "Telegram", "url": "#" }
+      ]
+    }
+  }
+]
