@@ -1,267 +1,196 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Contact Us - Alzera</title>
-    <link href="contact.css" rel="stylesheet" />
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
-    <!-- NavBar -->
+    <!-- navbar -->
     <nav>
-      <a class="logo" href="Home.html"> ALZERA </a>
-      <div class="navLinks">
-        <ul>
-          <li>
-            <a href="index.html"> Home </a>
-          </li>
-          <li>
-            <a href="Portfolio.html"> Portfolio </a>
-          </li>
-          <li>
-            <a href="Services.html"> Services </a>
-          </li>
-          <li>
-            <a href="About.html"> About </a>
-          </li>
-          <li>
-            <a href="Contact.html"> Contact </a>
-          </li>
-        </ul>
-      </div>
+      <a class="logo" href="Home.html">ALZERA</a>
+      <ul class="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Portfolio.html">Portfolio</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a class="active" href="Contact.html">Contact</a></li>
+      </ul>
       <div class="navRight">
-        <a class="quoteBtn" href="Contact.html"> GET A QUOTE </a>
+        <a class="quoteBtn" href="Contact.html">GET A QUOTE</a>
         <select>
           <option value="en">English</option>
           <option value="am">Amharic</option>
         </select>
       </div>
     </nav>
-    <main>
-      <div>
-        <!-- Header Section -->
-        <div>
-          <h1>Connect With Us</h1>
-          <p>
-            Ready to forge the future? Reach out to discuss your next big
-            project or inquire about our services.
-          </p>
-          <!-- Info Card -->
-          <div>
+
+    <main class="contactContainer">
+      <!-- hero -->
+      <section class="contactHero">
+        <h1>Connect With Us</h1>
+        <p>
+          Ready to build something great? Reach out to discuss your next
+          project, ideas, or how Alzera can help your business grow.
+        </p>
+      </section>
+
+      <div class="contactGrid">
+        <!-- left side -->
+        <div class="contactLeft">
+          <div class="contactCard">
             <h2>Direct Lines</h2>
-            <div>
-              <span> </span>
+
+            <div class="infoItem">
+              <span>📧</span>
               <div>
-                <p>Email</p>
-                <a href="mailto:hello@alzera.com"> hello@alzera.com </a>
+                <h4>Email</h4>
+                <a href="mailto:hello@alzera.com">hello@alzera.com</a>
               </div>
             </div>
-            <div>
-              <span> </span>
+
+            <div class="divider"></div>
+
+            <div class="infoItem">
+              <span>📞</span>
               <div>
-                <p>Phone</p>
-                <a href="tel:+251911234567"> +251 911 234 567 </a>
+                <h4>Phone</h4>
+                <a href="tel:+251911234567">+251 911 234 567</a>
               </div>
             </div>
-            <div>
-              <span> </span>
+
+            <div class="divider"></div>
+
+            <div class="infoItem">
+              <span>📍</span>
               <div>
-                <p>Headquarters</p>
+                <h4>Headquarters</h4>
                 <p>Bole Sub-City, Addis Ababa, Ethiopia</p>
               </div>
             </div>
           </div>
-          <!-- Hours Card -->
-          <div>
+
+          <!-- office hours -->
+          <div class="contactCard">
             <h3>Office Hours</h3>
-            <ul>
+            <ul class="hours">
               <li>
-                <span> Monday - Friday </span>
-                <span> 9:00 AM - 6:00 PM (EAT) </span>
+                <span>Monday - Friday</span>
+                <span>9:00 AM - 6:00 PM</span>
               </li>
               <li>
-                <span> Saturday </span>
-                <span> 10:00 AM - 2:00 PM (EAT) </span>
+                <span>Saturday</span>
+                <span>10:00 AM - 2:00 PM</span>
               </li>
-              <li>
-                <span> Sunday </span>
-                <span> Closed </span>
+              <li class="closed">
+                <span>Sunday</span>
+                <span>Closed</span>
               </li>
             </ul>
           </div>
-          <!-- Social Media Card -->
-          <div>
+
+          <!-- social -->
+          <div class="contactCard">
             <h3>Social Profiles</h3>
-            <div>
-              <a href="#" title="LinkedIn">
-                <span> </span>
-              </a>
-              <a href="#" title="GitHub">
-                <span> </span>
-              </a>
-              <a href="#" title="Facebook">
-                <span> </span>
-              </a>
-              <a href="#" title="Telegram">
-                <span> </span>
-              </a>
+            <div class="socials">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                title="LinkedIn"
+                >🔗</a
+              >
+              <a href="https://twitter.com/" target="_blank" title="Twitter"
+                >🌐</a
+              >
+              <a href="mailto:hello@alzera.com" title="Email">📧</a>
             </div>
           </div>
-          <!-- Inquiry Form -->
-          <div>
-            <h2>Send an Inquiry</h2>
-            <form id="contactForm">
+        </div>
+
+        <!-- form -->
+        <div class="formCard">
+          <h2>Send an Inquiry</h2>
+          <form id="contactForm">
+            <div class="formGrid">
               <div>
-                <div>
-                  <label for="name"> Name </label>
-                  <input
-                    id="name"
-                    name="name"
-                    placeholder="Full Name"
-                    required=""
-                    type="text"
-                  />
-                </div>
-                <div>
-                  <label for="email"> Email Address </label>
-                  <input
-                    id="email"
-                    name="email"
-                    placeholder="email@example.com"
-                    required=""
-                    type="email"
-                  />
-                </div>
-                <div>
-                  <label for="phone"> Phone Number </label>
-                  <input
-                    id="phone"
-                    name="phone"
-                    placeholder="+1234567890"
-                    type="tel"
-                  />
-                </div>
-                <div>
-                  <label for="company"> Company </label>
-                  <input
-                    id="company"
-                    name="company"
-                    placeholder="Company Name"
-                    type="text"
-                  />
-                </div>
-                <div>
-                  <label for="projectType"> Project Type </label>
-                  <select id="projectType" name="projectType">
-                    <option>Web Development</option>
-                    <option>Mobile App</option>
-                    <option>UI/UX Design</option>
-                    <option>Consulting</option>
-                    <option>Other</option>
-                  </select>
-                </div>
-                <div>
-                  <label for="budget"> Estimated Budget </label>
-                  <select id="budget" name="budget">
-                    <option>&lt; $5,000</option>
-                    <option>$5,000 - $10,000</option>
-                    <option>$10,000 - $25,000</option>
-                    <option>$25,000+</option>
-                  </select>
-                </div>
+                <label>Name</label>
+                <input type="text" placeholder="Full Name" required />
               </div>
               <div>
-                <label for="message"> Message </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="How can we help you?"
-                  required=""
-                  rows="5"
-                ></textarea>
+                <label>Email Address</label>
+                <input type="email" placeholder="email@example.com" required />
               </div>
               <div>
-                <button type="submit">
-                  <span> Send Message </span>
-                  <span> </span>
-                </button>
+                <label>Phone Number</label>
+                <input type="tel" placeholder="+251" />
               </div>
-            </form>
-          </div>
+              <div>
+                <label>Company</label>
+                <input type="text" placeholder="Company Name" />
+              </div>
+              <div>
+                <label>Project Type</label>
+                <select>
+                  <option>Web Development</option>
+                  <option>Mobile App</option>
+                  <option>UI/UX Design</option>
+                  <option>ERP System</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div>
+                <label>Estimated Budget</label>
+                <select>
+                  <option>&lt; $5,000</option>
+                  <option>$5,000 - $10,000</option>
+                  <option>$10,000 - $25,000</option>
+                  <option>$25,000+</option>
+                </select>
+              </div>
+            </div>
+
+            <label>Message</label>
+            <textarea rows="5" placeholder="How can we help you?"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
         </div>
       </div>
     </main>
+
+    <!-- footer -->
     <footer>
-      <div class="footTop">
-        <div class="footBrand">
-          <a href="#"> ALZERA </a>
+      <div class="footerGrid">
+        <div>
+          <h2>Alzera</h2>
           <p>
-            Engineered for Excellence. Building scalable, robust digital
-            infrastructure for modern enterprises.
+            © Engineered for Excellence. Building scalable software solutions
+            for modern businesses.
           </p>
         </div>
-        <div class="footCol">
+        <div>
           <h3>Quick Links</h3>
-          <ul>
-            <li>
-              <a href="About.html"> About Us </a>
-            </li>
-            <li>
-              <a href="Portfolio.html"> Portfolio </a>
-            </li>
-            <li>
-              <a href="Contact.html"> Contact </a>
-            </li>
-          </ul>
+          <a href="About.html">About </a>
+          <a href="Portfolio.html">Portfolio</a>
+          <a href="Contact.html">Contact</a>
         </div>
-        <div class="footCol">
-          <h3>Expertise</h3>
-          <ul>
-            <li>
-              <a href="#"> System Architecture </a>
-            </li>
-            <li>
-              <a href="#"> Cloud Native Dev </a>
-            </li>
-            <li>
-              <a href="#"> Data Engineering </a>
-            </li>
-            <li>
-              <a href="#"> DevOps &amp; CI/CD </a>
-            </li>
-          </ul>
+        <div>
+          <h3>Services</h3>
+          <a>Web Development</a>
+          <a>Mobile Apps</a>
+          <a>ERP Systems</a>
+          <a>UI/UX Design</a>
         </div>
-        <div class="footCol">
+        <div>
           <h3>Socials</h3>
-          <ul>
-            <li>
-              <a href="#"> LinkedIn </a>
-            </li>
-            <li>
-              <a href="#"> Twitter </a>
-            </li>
-            <li>
-              <a href="#"> GitHub </a>
-            </li>
-          </ul>
+          <a>LinkedIn</a>
+          <a>Twitter</a>
+          <a>GitHub</a>
         </div>
       </div>
-      <div class="footBottom">
-        <p>© 2024 Alzera. Software Solutions.</p>
-        <ul>
-          <li>
-            <a href="#"> Privacy Policy </a>
-          </li>
-          <li>
-            <a href="#"> Terms of Service </a>
-          </li>
-          <li>
-            <a href="#"> Cookie Policy </a>
-          </li>
-          <li>
-            <a href="#"> Sitemap </a>
-          </li>
-        </ul>
+      <div class="footerBottom">
+        <a>Privacy Policy</a>
+        <a>Terms of Service</a>
+        <a>Cookie Policy</a>
       </div>
     </footer>
   </body>
