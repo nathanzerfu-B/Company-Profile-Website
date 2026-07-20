@@ -2,193 +2,174 @@
 <html>
   <head>
     <title>Portfolio - Alzera Software Solutions</title>
-    <link href="portfolio.css" rel="stylesheet" />
+    <link rel="stylesheet" href="portfolio.css" />
   </head>
-
   <body>
-    <!-- NavBar -->
+    <!-- navbar -->
     <nav>
-      <a class="logo" href="Home.html"> ALZERA </a>
-      <div class="navLinks">
-        <ul>
-          <li>
-            <a href="index.html"> Home </a>
-          </li>
-          <li>
-            <a href="Portfolio.html"> Portfolio </a>
-          </li>
-          <li>
-            <a href="Services.html"> Services </a>
-          </li>
-          <li>
-            <a href="About.html"> About </a>
-          </li>
-          <li>
-            <a href="Contact.html"> Contact </a>
-          </li>
-        </ul>
-      </div>
+      <a href="index.html" class="logo">ALZERA</a>
+
+      <ul class="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a class="active" href="Portfolio.html">Portfolio</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+
       <div class="navRight">
-        <a class="quoteBtn" href="Contact.html"> GET A QUOTE </a>
+        <a href="Contact.html" class="quoteBtn">GET A QUOTE</a>
+
         <select>
           <option value="en">English</option>
           <option value="am">Amharic</option>
         </select>
       </div>
     </nav>
-    <!-- Main Content Canvas -->
-    <main>
-      <!-- Header Section -->
-      <header>
-        <div>
-          <h1>
-            Featured
-            <span> Work </span>
-          </h1>
-          <p>
-            A curated selection of our finest engineering feats. Built with
-            precision, deployed for impact.
-          </p>
-        </div>
-        <!-- Filters -->
-        <div class="filters">
-          <button class="filterActive">All</button>
-          <button>Websites</button>
-          <button>ERP</button>
-          <button>POS</button>
-          <button>Mobile Apps</button>
-        </div>
-      </header>
-      <!-- Bento Grid Portfolio -->
-      <div class="cardsWrap">
-        <!-- Project 1 -->
-        <article>
-          <div>
-            <h2>OmniCore Enterprise Suite</h2>
-            <p>
-              A comprehensive resource planning solution streamlining operations
-              across 15+ global manufacturing facilities with real-time data
-              synchronization.
-            </p>
-            <div>
-              <button>View Details</button>
-            </div>
-          </div>
-        </article>
-        <!-- Project 2 -->
-        <article>
-          <div>
-            <h2>FinSync Mobile</h2>
-            <p>
-              Secure, low-latency financial tracking application designed for
-              high-frequency traders.
-            </p>
-            <div>
-              <button>View Details</button>
-            </div>
-          </div>
-        </article>
-        <!-- Project 3 -->
-        <article>
-          <div>
-            <h2>RetailForge POS</h2>
-            <p>
-              Cloud-native point of sale system with offline resilience for
-              high-volume retail environments.
-            </p>
-            <div>
-              <button>View Details</button>
-            </div>
-          </div>
-        </article>
-        <!-- Project 4 -->
-        <article>
-          <div>
-            <h2>LogixNet Global Dashboard</h2>
-            <p>
-              A high-performance logistics routing and analytics dashboard,
-              processing millions of data points daily to optimize supply chain
-              efficiency.
-            </p>
-            <div>
-              <button>View Details</button>
-            </div>
-          </div>
-        </article>
+
+    <main class="portfolioContainer">
+      <!-- hero -->
+      <section class="portfolioHero">
+        <h1>Featured Work</h1>
+        <p>
+          A curated selection of our finest digital solutions. Built with
+          precision, designed for impact.
+        </p>
+      </section>
+
+      <!-- filter buttons -->
+      <div class="filters">
+        <button class="active">All</button>
+        <button>Websites</button>
+        <button>ERP</button>
+        <button>POS</button>
+        <button>Mobile Apps</button>
       </div>
+
+      <!-- project cards -->
+      <section class="portfolioGrid">
+        <article class="project">
+          <div class="projectImage">
+            <img src="images/erp.jpg" alt="ERP System" />
+          </div>
+          <div class="projectContent">
+            <div class="tags">
+              <span>ERP</span>
+              <span>React</span>
+              <span>Node.js</span>
+              <span class="status">✓ Deployed</span>
+            </div>
+            <h2>Adile Bakery ERP</h2>
+            <p>
+              A complete enterprise resource planning system for managing
+              production, inventory, sales, reports, and branch operations.
+            </p>
+            <a href="#">View Case Study <span class="arrow">→</span></a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="projectImage">
+            <img src="images/mobile.jpg" alt="Mobile Application" />
+          </div>
+          <div class="projectContent">
+            <div class="tags">
+              <span>Mobile</span>
+              <span>Flutter</span>
+              <span class="development">In Development</span>
+            </div>
+            <h2>Mobile Management App</h2>
+            <p>
+              Cross-platform mobile application designed for smooth business
+              operations and real-time data.
+            </p>
+            <a href="#">View Project <span class="arrow">→</span></a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="projectImage">
+            <img src="images/pos.jpg" alt="POS System" />
+          </div>
+          <div class="projectContent">
+            <div class="tags">
+              <span>POS</span>
+              <span>Web App</span>
+              <span class="status">✓ Deployed</span>
+            </div>
+            <h3>Retail POS System</h3>
+            <p>
+              A fast and reliable point-of-sale system built for retail shops
+              with inventory tracking, sales management, and business reporting.
+            </p>
+            <a href="#">View Project <span class="arrow">→</span></a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="projectImage">
+            <img src="images/dashboard.jpg" alt="Dashboard System" />
+          </div>
+          <div class="projectContent">
+            <div class="tags">
+              <span>Dashboard</span>
+              <span>Next.js</span>
+              <span>PostgreSQL</span>
+              <span class="status">✓ Deployed</span>
+            </div>
+            <h3>LogixNet Dashboard</h3>
+            <p>
+              A logistics management platform providing real-time tracking,
+              analytics, and business intelligence tools.
+            </p>
+            <a href="#">View Project <span class="arrow">→</span></a>
+          </div>
+        </article>
+      </section>
     </main>
-    <!-- Footer -->
+
+    <!-- footer -->
     <footer>
-      <div class="footTop">
-        <div class="footBrand">
-          <a href="#"> ALZERA </a>
+      <div class="footerGrid">
+        <div class="footerBrand">
+          <h2>Alzera</h2>
           <p>
-            Engineered for Excellence. Building scalable, robust digital
-            infrastructure for modern enterprises.
+            Engineered for Excellence. Building scalable software solutions for
+            modern businesses.
           </p>
+          <a class="footerButton" href="Contact.html">Start a Project</a>
         </div>
-        <div class="footCol">
-          <h3>Quick Links</h3>
-          <ul>
-            <li>
-              <a href="About.html"> About Us </a>
-            </li>
-            <li>
-              <a href="Portfolio.html"> Portfolio </a>
-            </li>
-            <li>
-              <a href="Contact.html"> Contact </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footCol">
+        <div>
           <h3>Expertise</h3>
-          <ul>
-            <li>
-              <a href="#"> System Architecture </a>
-            </li>
-            <li>
-              <a href="#"> Cloud Native Dev </a>
-            </li>
-            <li>
-              <a href="#"> Data Engineering </a>
-            </li>
-            <li>
-              <a href="#"> DevOps &amp; CI/CD </a>
-            </li>
-          </ul>
+          <a>System Architecture</a>
+          <a>Cloud Development</a>
+          <a>Data Engineering</a>
+          <a>DevOps & CI/CD</a>
         </div>
-        <div class="footCol">
+        <div>
+          <h3>Quick Links</h3>
+          <a href="About.html">About</a>
+          <a href="Portfolio.html">Portfolio</a>
+          <a href="Contact.html">Contact</a>
+        </div>
+        <div>
           <h3>Socials</h3>
-          <ul>
-            <li>
-              <a href="#"> LinkedIn </a>
-            </li>
-            <li>
-              <a href="#"> Twitter </a>
-            </li>
-            <li>
-              <a href="#"> GitHub </a>
-            </li>
-          </ul>
+          <a href="mailto:hello@alzera.com">hello@alzera.com</a>
+          <a>Addis Ababa, Ethiopia</a>
+          <div class="socialIcons">
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">GitHub</a>
+          </div>
         </div>
       </div>
-      <div class="footBottom">
-        <p>© 2024 Alzera. Software Solutions.</p>
-        <ul>
-          <li>
-            <a href="#"> Privacy Policy </a>
-          </li>
-          <li>
-            <a href="#"> Terms of Service </a>
-          </li>
-          <li>
-            <a href="#"> Cookie Policy </a>
-          </li>
-          <li>
-            <a href="#"> Sitemap </a>
-          </li>
-        </ul>
+      <div class="footerBottom">
+        <p>© 2024 Alzera Software Solutions.</p>
+        <div>
+          <a>Privacy Policy</a>
+          <a>Terms of Service</a>
+          <a>Cookie Policy</a>
+        </div>
       </div>
     </footer>
   </body>
