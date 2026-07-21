@@ -267,6 +267,7 @@ margin-bottom: 10px;
     font-weight: bold;
     margin-bottom: 10px;
   text-align: center;
+  color: #FF6D1F;
 }
 .whychooseus  p{
     font-size: 16px;
@@ -300,7 +301,31 @@ margin-bottom: 10px;
 
 }
 
+/*techweuse*/
+.techweuse{
+width: 100%;
+margin-bottom: 50px;
+}
+.techweuse h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  text-align: center;
+  color: #FF6D1F;
+}
+.techweuse ul {
+    list-style: none;
+    display: flex;
+    margin-left: 150px;
 
+}
+.techweuse ul li {
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #7e7876;
+   text-transform: uppercase;
+}
 
 
 
