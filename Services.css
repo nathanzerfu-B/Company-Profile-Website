@@ -210,3 +210,48 @@ div  p{
     margin-left: 20px;
 
 }
+
+.Freque {
+    display: flex;
+    flex-direction: column;
+   margin:60px;
+   text-align: center;
+}
+.Freque h2 {
+    margin-bottom:30px;
+
+}
+.Freque .faq{
+
+}
+
+.readybuild{
+    display:block;
+    flex-direction: row;
+    background-color: #0e0e0e;
+    width:900px;
+    height: 300px;
+    margin: 100px;
+    padding: 60px;
+}
+.readybuild h2{
+    color: #fffcfb;
+    margin-bottom: 10px;
+}
+ .readybuild p {
+    margin-left: 0px;
+    color: #d1cac8;
+    text-align: left;
+ }
+ .readybuild button{
+    
+    margin-top: 20px;
+background-color:#ef8f74;
+padding: 10px;
+border-radius: 5px;
+ }
+
+ .readybuild button a{
+    text-decoration: none;
+    color:#0e0e0e ;
+ }
