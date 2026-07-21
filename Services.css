@@ -173,6 +173,7 @@ div  p{
 
 .workprocess{
     margin-left: 50px;
+    
 }
 .workprocess h2{
     text-align: center;
@@ -183,12 +184,16 @@ div  p{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
 }
 
 .workprocess .process .step{
     background-color: #0e0e0e;
     margin-left: 10px;
     padding: 20px;
+    width: 220px;
+    height: 125px;
+    border-radius:6px ;
 }
 .workprocess .process .step .stepnumber{
     border:whitesmoke solid 1px;
@@ -196,18 +201,22 @@ div  p{
     border-radius: 15px;
     align-items: center;
     width:20px ;
-    padding: 3px;
+    padding: 6px;
+    margin-left: 10px;
     margin-bottom: 20px;
+    color: #000000;
 } 
 .workprocess .process .step h3{
     color: white;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 .workprocess .process .step p{
     color: white;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 10px;
+    font-size: 12px;
 
 }
 
@@ -226,44 +235,56 @@ div  p{
 }
 
 .readybuild{
-    display:block;
+    display:flex;
     flex-direction: row;
     background-color: #0e0e0e;
     width:900px;
-    height: 300px;
     margin: 100px;
-    padding: 60px;
+    
+    margin-bottom: 80px;
+    padding: 90px;
+    align-items: center;
+    border:#b8927f solid 1px;
+    border-radius: 10px;
+}
+.readybuild .readybuild-text{
+
+    display: block;
+    flex-direction: column;
+
 }
 .readybuild h2{
     color: #fffcfb;
     margin-bottom: 10px;
+    font-size: 35px;
 }
  .readybuild p {
     margin-left: 0px;
     color: #d1cac8;
     text-align: left;
+    width:600px;
  }
  .readybuild button{
-    
-    margin-top: 20px;
-background-color:#ef8f74;
-padding: 10px;
-border-radius: 5px;
+    width: 200px;
+    height: 47px;
+   background-color:#e7562e;
+   padding: 5px;
+   margin-left: 70px;
+   border-radius: 5px;
  }
 
  .readybuild button a{
     text-decoration: none;
     color:#0e0e0e ;
+    align-items: center;
  }
  footer{
     background-color: #000000;
-    color: #FF6D1F;
-display: flex;
-flex-direction: row; 
-width:100%;
-height:400px;
+
 }
 .footer-content{
+   width:100%;
+   height:315px;
 display: flex;
 flex-direction: row;
 color:#e7562e
@@ -271,6 +292,7 @@ color:#e7562e
 .footer-sectionabout  {
     display:flex;
     flex-direction: column;
+    margin-right: 50px;
 }
 .footer-sectionabout h3{
     margin-top: 70px;
@@ -290,7 +312,7 @@ color:#e7562e
 .footer-sectionlinks{
      margin-top: 70px;
      margin-left: 20px;
-     margin-right: 70px;
+     margin-right: 160px;
      color: aliceblue;
 }
 .footer-sectionlinks h3{
@@ -312,6 +334,11 @@ margin-top: 15px;
     font-weight:700;
    text-transform:capitalize;
 }
+
+.footer-sectionlinks ul li a:hover{
+    color: #e7562e;
+}
+
 .footer-sectionServices{
  color: aliceblue;
  margin-top: 69px;   
@@ -340,18 +367,22 @@ margin-top: 15px;
     font-weight:700;
    text-transform:capitalize;
 }
+ .footer-sectionServices ul li a:hover{
+    color: #e7562e;
+}
 .footer-social {
      margin-top: 70px;
-     margin-left: 50px;
+     margin-left: 120px;
      margin-right: 70px;
      color: aliceblue;
-     width: 100%;
+   
 }
 
 .footer-social h3{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 13px;
-    text-transform: uppercase;
+    text-transform: uppercase; 
+   margin-left:70px;
 }
 
 .footer-social ul{
@@ -360,12 +391,14 @@ margin-top: 15px;
   flex-direction:row ;
   justify-content:space-evenly;
   width:100%;
-  margin-left:-10px;
+  margin-left:30px;
 }
 .footer-social  ul  li{
     margin-top:10px;
     list-style: none;
   color:#ef8f74;
+  margin-left: 30px;
+
 }
 
 .footer-social ul li a{
@@ -376,16 +409,37 @@ margin-top: 15px;
     font-weight:700;
    text-transform:capitalize;
 }
+ .footer-social ul li a:hover{
+    color: #e7562e;
+}
 
 .footer-bottom{
-    flex-direction: row;
-    margin-top: 300px;
-
+    display: block;
+    width: 90%;
+ margin-left:30px;
 }
 .footer-bottom ul{
     display: flex;
     flex-direction: row;
+   justify-content: center;
+   list-style: none;
+}
+.footer-bottom ul li {
+    margin-left: 20px;
+  color:#ef8f74;
+  margin-bottom: 30px;
+}
 
+.footer-bottom ul li a{
+    
+   color: #d9beb6;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight:700;
+   text-transform:capitalize;
+}
+.footer-bottom ul li a:hover{
+    color: #e7562e;
 }
 
 
