@@ -305,6 +305,9 @@ margin-bottom: 10px;
 .techweuse{
 width: 100%;
 margin-bottom: 50px;
+border:#cdc6b6 solid 1px;
+height:200px;
+padding: 40px 20px;
 }
 .techweuse h2{
     font-size: 30px;
@@ -326,6 +329,75 @@ margin-bottom: 50px;
     color: #7e7876;
    text-transform: uppercase;
 }
+/*Featured Projects*/
+
+.FeaturedProjects{
+    display:block;
+  width: 100%;
+  margin-bottom: 50px;
+  height: 600px;
+}
+.FeaturedProjects h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  text-align: center;
+  color: #FF6D1F;
+}
+.FeaturedProjects .FeaturedProjects-iteam{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.FeaturedProjects-iteam .project{
+margin-left: 30px;
+}
+.FeaturedProjects-iteam .project img{
+    width:360px;
+    height: 280px;
+}
+.FeaturedProjects-iteam .project span{
+    display: block;
+    margin-top: 30px;
+}
+.FeaturedProjects-iteam .project span text{
+border:#000000 solid 1px;
+background-color: #000000;
+padding: 5px;
+color:#f7e6e2
+}
+.FeaturedProjects .project h3{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.FeaturedProjects .project h3:hover{
+    color: #FF6D1F;
+}
+.FeaturedProjects .project p{
+    color: #747270;
+    width: 330px;
+}
+
+/*Testimonials*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
