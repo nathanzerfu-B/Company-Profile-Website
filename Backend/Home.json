@@ -1,0 +1,126 @@
+[
+    {
+  "company": {
+    "name": "DevForge",
+    "tagline": "Architecting the Digital Frontier",
+    "heroImageUrl": "Link if the company img",
+    "ctaButtons": [
+      { "label": "Start a Project", "link": "/contact" },
+      { "label": "View Our Work", "link": "/portfolio" }
+    ]
+  },
+  "capabilities": [
+    {
+      "title": "Web Development",
+      "description": "High-performance, accessible, and responsive web applications built with modern frameworks.",
+      "icon": "language",
+      "sortOrder": 1
+    },
+    {
+      "title": "Mobile Apps",
+      "description": "Native and cross-platform mobile experiences that engage users and drive retention.",
+      "icon": "smartphone",
+      "sortOrder": 2
+    },
+    {
+      "title": "ERP Systems",
+      "description": "Custom Enterprise Resource Planning software to unify data and streamline complex workflows across your entire organization.",
+      "icon": "dataset",
+      "sortOrder": 3
+    },
+    {
+      "title": "POS Systems",
+      "description": "Robust Point of Sale solutions tailored for retail and hospitality, ensuring seamless transactions.",
+      "icon": "point_of_sale",
+      "sortOrder": 4
+    },
+    {
+      "title": "UI/UX Design",
+      "description": "Data-driven design systems and intuitive interfaces that elevate brand perception.",
+      "icon": "design_services",
+      "sortOrder": 5
+    },
+    {
+      "title": "API Development",
+      "description": "Secure, scalable microservices and APIs connecting your ecosystem flawlessly.",
+      "icon": "api",
+      "sortOrder": 6
+    }
+  ],
+  "features": [
+    {
+      "title": "Fast Delivery",
+      "description": "Agile methodologies ensuring rapid deployment without compromising quality.",
+      "icon": "speed",
+      "sortOrder": 1
+    },
+    {
+      "title": "Clean Code",
+      "description": "Maintainable, well-documented codebases built for future scaling.",
+      "icon": "code",
+      "sortOrder": 2
+    },
+    {
+      "title": "Modern Technologies",
+      "description": "Leveraging the latest frameworks for optimal performance.",
+      "icon": "memory",
+      "sortOrder": 3
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Flawless user experiences across all devices and screen sizes.",
+      "icon": "devices",
+      "sortOrder": 4
+    },
+    {
+      "title": "Ongoing Support",
+      "description": "Dedicated maintenance and updates post-launch.",
+      "icon": "support_agent",
+      "sortOrder": 5
+    },
+    {
+      "title": "Secure Applications",
+      "description": "Enterprise-grade security protocols implemented at every layer.",
+      "icon": "security",
+      "sortOrder": 6
+    }
+  ],
+  "technologies": [
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "TypeScript",
+    "Tailwind CSS",
+    "Docker",
+    "Git",
+    "Linux"
+  ],
+  "featuredProjects": [
+    {
+      "title": "FinTech Dashboard",
+      "category": "websites",
+      "status": "deployed"
+    },
+    {
+      "title": "E-Commerce Platform",
+      "category": "websites",
+      "status": "deployed"
+    },
+    {
+      "title": "Healthcare CRM",
+      "category": "websites",
+      "status": "deployed"
+    }
+  ],
+  "testimonials": [
+    {
+      "clientName": "Seyfe",
+      "content": "The dictator transformed our systems."
+    },
+    {
+      "clientName": "King",
+      "content": "Seamless experience."
+    }
+  ]
+}
+]

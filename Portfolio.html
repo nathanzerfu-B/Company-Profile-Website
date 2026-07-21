@@ -1,11 +1,176 @@
-<Doctype html>
-    <html>
-        <head>
-            <title>My Page</title>
-        </head>
-        <body>
-            <h1>Welcome to My Page</h1>
-            <p>This is a simple paragraph.</p>
-            
-        </body>
-    </html>
+<!doctype html>
+<html>
+  <head>
+    <title>Portfolio - Alzera Software Solutions</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <a href="Home.html" class="logo">ALZERA</a>
+
+      <ul class="navLinks">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a class="active" href="Portfolio.html">Portfolio</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+
+      <div class="navRight">
+        <a href="Contact.html" class="quoteBtn">GET A QUOTE</a>
+
+        <select>
+          <option value="en">English</option>
+          <option value="am">Amharic</option>
+        </select>
+      </div>
+    </nav>
+
+    <main class="portfolioContainer">
+      <!-- hero -->
+      <section class="portfolioHero">
+        <h1>Featured Work</h1>
+        <p>
+          A curated selection of our finest digital solutions. Built with
+          precision, designed for impact.
+        </p>
+      </section>
+
+      <!-- filter buttons -->
+      <div class="filters">
+        <button class="active">All</button>
+        <button>Websites</button>
+        <button>ERP</button>
+        <button>POS</button>
+        <button>Mobile Apps</button>
+      </div>
+
+      <!-- project cards -->
+      <section class="portfolioGrid">
+        <article class="project">
+          <div class="projectImage">
+            <img src="images/erp.jpg" alt="ERP System" />
+          </div>
+          <div class="projectContent">
+            <div class="tags">
+              <span>ERP</span>
+              <span>React</span>
+              <span>Node.js</span>
+              <span class="status">✓ Deployed</span>
+            </div>
+            <h2>Adile Bakery ERP</h2>
+            <p>
+              A complete enterprise resource planning system for managing
+              production, inventory, sales, reports, and branch operations.
+            </p>
+            <a href="#">View Case Study <span class="arrow">→</span></a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="projectImage">
+            <img src="images/mobile.jpg" alt="Mobile Application" />
+          </div>
+          <div class="projectContent">
+            <div class="tags">
+              <span>Mobile</span>
+              <span>Flutter</span>
+              <span class="development">In Development</span>
+            </div>
+            <h2>Mobile Management App</h2>
+            <p>
+              Cross-platform mobile application designed for smooth business
+              operations and real-time data.
+            </p>
+            <a href="#">View Project <span class="arrow">→</span></a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="projectImage">
+            <img src="images/pos.jpg" alt="POS System" />
+          </div>
+          <div class="projectContent">
+            <div class="tags">
+              <span>POS</span>
+              <span>Web App</span>
+              <span class="status">✓ Deployed</span>
+            </div>
+            <h3>Retail POS System</h3>
+            <p>
+              A fast and reliable point-of-sale system built for retail shops
+              with inventory tracking, sales management, and business reporting.
+            </p>
+            <a href="#">View Project <span class="arrow">→</span></a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="projectImage">
+            <img src="images/dashboard.jpg" alt="Dashboard System" />
+          </div>
+          <div class="projectContent">
+            <div class="tags">
+              <span>Dashboard</span>
+              <span>Next.js</span>
+              <span>PostgreSQL</span>
+              <span class="status">✓ Deployed</span>
+            </div>
+            <h3>LogixNet Dashboard</h3>
+            <p>
+              A logistics management platform providing real-time tracking,
+              analytics, and business intelligence tools.
+            </p>
+            <a href="#">View Project <span class="arrow">→</span></a>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footerGrid">
+        <div class="footerBrand">
+          <h2>Alzera</h2>
+          <p>
+            Engineered for Excellence. Building scalable software solutions for
+            modern businesses.
+          </p>
+          <a class="footerButton" href="Contact.html">Start a Project</a>
+        </div>
+        <div>
+          <h3>Expertise</h3>
+          <a>System Architecture</a>
+          <a>Cloud Development</a>
+          <a>Data Engineering</a>
+          <a>DevOps & CI/CD</a>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="About.html">About</a>
+          <a href="Portfolio.html">Portfolio</a>
+          <a href="Contact.html">Contact</a>
+        </div>
+        <div>
+          <h3>Socials</h3>
+          <a href="mailto:hello@alzera.com">hello@alzera.com</a>
+          <a>Addis Ababa, Ethiopia</a>
+          <div class="socialIcons">
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <p>© 2024 Alzera Software Solutions.</p>
+        <div>
+          <a>Privacy Policy</a>
+          <a>Terms of Service</a>
+          <a>Cookie Policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

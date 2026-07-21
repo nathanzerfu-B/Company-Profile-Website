@@ -2,34 +2,47 @@
     <html>
         <head>
             <title>Alzera Software Solutions</title>
+            <link rel="stylesheet" href="Home.css">
         </head>
         <body>
             <nav>
-                <a href="Home.html">ALZERA</a>
+                <a href="Home.html" class="logo">ALZERA</a>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Home.html" class="active">Home</a></li>
                     <li><a href="Portfolio.html">Portfolio</a></li>
                     <li><a href="Services.html">Services</a></li>
                     <li><a href="Contact.html">Contact</a></li>
                 </ul>
-                <a href="Contact.html">GET A QUOTE</a>
+                <a class="GetQuote" href="Contact.html">GET A QUOTE</a>
+                <select>
+                    <option value="en">English</option>
+                    <option value="am">Amharic</option>
+                </select>
+                <div class="menu-btn">
+                    <div class="menu-btn__burger">
+                        
+                    </div>
+                </div>
+
             </nav>
             <div>
-                <section>
-                    <h1>Welcome to Alzera Software Solutions</h1>
-                    <p>We are a leading software development company dedicated to delivering innovative solutions that drive business success. Our team of experts specializes in creating custom software applications, web development, and digital transformation strategies tailored to meet the unique needs of our clients.</p>
+                <section class="hero">
+                    <p class="next-gen">Next-Gen Engineering</p>
+                    <h1>Architecting the <br> <span class="highlight">Digital Frontier</span></h1>
+                    <p>We build resilient, scalable, and high-performance digital ecosystems. Merging industrial-grade engineering with cutting-edge design for brands that demand authority.</p>
                 
-                <span>    
+                <span class="hero-buttons">    
                     <button>START A PROJECT</button>
-                         <button>VIEW OUR SERVICES</button>
+                         <button>View Our Work</button>
                               </span>
                               <img src="images/hero-image.jpg" alt="Hero Image">
                 </section>
-            <section class="companylist  ">
+            </div>
+            <section class="companylist">
                 <ul>
                     <li>Trusted by businesses in Ethiopia</li>
                     <li>FINCORP</li>
-                    <li>health_and_safety MEDITECH</li>
+                    <li> MEDITECH</li>
                     <li>AeroDynamics</li>
                     <li>LOGISTIX</li>
                 </ul>
@@ -38,13 +51,13 @@
               <div class="OurServices">
             <h2>Core Capabilities</h2>
               <p>Comprehensive technical solutions designed to modernize 
-                operations and accelerate growth.</p>
-         <div >
+                operations and <br> accelerate growth.</p>
+         <div class="service-container">
            <div class="service">
             <img src="images/service-1.jpg" alt="Service 1">
                 <h3>Web Development</h3>
                 <p>High-performance, accessible, and responsive web applications built with modern frameworks.</p>
-                  <a href="">Learn MORE</a>
+                  <a href="">LEARN MORE</a>
             </div>
            
            <div class="service">
@@ -61,6 +74,8 @@
                 <p>Custom Enterprise Resource Planning software to unify data and streamline complex workflows across your entire organization.</p>
                   <a href="">Learn MORE </a>
             </div>
+         </div>
+         <div class="service-container">
             <div class="service">
                 <img src="images/service-4.jpg" alt="Service 4">
                 <h3>POS Systems</h3>
@@ -79,13 +94,13 @@
                 <p>Secure, scalable microservices and APIs connecting your ecosystem flawlessly.</p>
                     <a href="">Learn MORE </a>
             </div>
-
             </div>
-            </div>
+              </div>
             </div>
               <div class="whychooseus">
                 <h2>Why Choose Us</h2>
                 <p>We deliver excellence across every phase of the software development lifecycle.</p>
+                <div class="chooseus-container">
                 <div class="chooseus">
                     <div class="chooseus-item">
                         <img src="images/chooseus-1.jpg" alt="Choose Us 1">
@@ -102,6 +117,9 @@
                         <h3>Modern Technologies</h3>
                         <p>Leveraging the latest frameworks for optimal performance.</p>
                     </div>
+                </div>
+                </div>
+                <div class="chooseus-container">
                     <div class="chooseus-item">
                         <img src="images/chooseus-4.jpg" alt="Choose Us 4">
                         <h3>Responsive Design</h3>
@@ -117,7 +135,131 @@
                         <h3>Secure Applications</h3>
                         <p>Enterprise-grade security protocols implemented at every layer.</p>
                     </div>
+                    </div>
                 </div>
             </div>
+    <section class="techweuse">
+        <h2>Technologies We Use</h2>
+        <ul>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>PostgreSQL</li>
+            <li>TypeScript</li>
+            <li>Tailwind CSS</li>
+            <li>Docker</li>
+            <li>Git</li>
+            <li>Linux</li>
+        </ul>
+    </section>
+  <div class="FeaturedProjects">
+   <h2>Featured Projects</h2>
+    <div class="project">
+          <img src="images/project-1.jpg" alt="Project 1">
+          <span>
+            <text>React</text>
+            </text>Node.js</text>
+          </span>
+          <h3>FinTech Dashboard</h3>
+          <p>A comprehensive analytics platform handling millions of daily transactions with real-time reporting capabilities.</p>
+     </div>
+     <div class="project">
+          <img src="images/project-2.jpg" alt="Project 2">
+            <span>
+            <text>NEXT.JS</text>
+            </text>STRIPE</text>
+          </span>
+          <h3>E-Commerce Platform</h3>
+          <p>A high-conversion retail architecture featuring headless CMS integration and sub-second page loads.</p>
+     </div>
+     <div class="project">
+          <img src="images/project-3.jpg" alt="Project 3">
+           <span>
+            <text>VUE</text>
+             <text>POSTGRESQL</text>
+          </span>
+          <h3>Healthcare CRM</h3>
+          <p>HIPAA-compliant patient management system streamlining administrative workflows and tele-health scheduling.</p>
+        </div>
+
+<div class="testimonials">
+    <h2>Client Testimonials</h2>
+
+    <div class="testimonial">
+        <img src="images/testimonial-2.jpg" alt="Testimonial 1">
+        <p>"DevForge transformed our outdated systems into a seamless, high-performance platform. Their engineering expertise is unmatched."</p>
+      <p>Abebe B.</p>
+      <p>CTO, Fincorp</p>
+    </div>
+
+<div class="testimonial">
+        <img src="images/testimonial-3.jpg" alt="Testimonial 2">
+        <p>"The team delivered a custom ERP that perfectly fits our complex operational needs. Truly exceptional work."</p>
+      <p>Sara M.</p>
+      <p>Operations Dir.Logistix</p>
+    </div>
+<div class="testimonial">
+        <img src="images/testimonial-3.jpg" alt="Testimonial 3">
+        <p>"Our new mobile app saw a 200% increase in user engagement within the first month. Highly recommend DevForge."</p>
+      <p>Dawit T.</p>
+      <p>Founder, Meditech</p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="contactus">
+    <h2>Ready to build your next software project?</h2>
+    <p>Partner with DevForge to transform complex technical challenges into elegant, scalable digital realities.</p>
+    <button>GET A QUOTE</button>
+    <button>CONTACT US</button>
+  </div>
+  
+</div>
+  </div>
+  <footer>
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>ALZERA</h3>
+            <p>© 2026 DevForge. Engineered for Excellence.</p>
+        </div>
+        <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section Services">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="Services.html#web-development">Web Development</a></li>
+                <li><a href="Services.html#mobile-apps">Mobile Apps</a></li>
+                <li><a href="Services.html#erp-systems">ERP Systems</a></li>
+                <li><a href="Services.html#ui-ux-design">UI/UX Design</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section contact">
+            <p>Socials</p>
+            <ul>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <ul>
+           <li><a href="#">Privacy Policy</a></li>
+           <li><a href="#">Cookie Policy</a></li>
+           <li><a href="#">Terms of Service</a></li>
+           <li><a href="#">Sitemap</a></li>
+        </ul>
+    </div>
+</footer>
+
+
+
         </body>
     </html>

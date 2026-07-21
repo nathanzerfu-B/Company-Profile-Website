@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #faf3e1;
+  color: #1a1a1a;
+  font-family: plus-jakarta-sans, sans-serif;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+p {
+  color: #666;
+}
+
+/*navbar*/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 64px;
+  background: #faf3e3;
+  border-bottom: 1px solid #e8dcc5;
+  z-index: 1000;
+}
+.logo {
+  color: #ff5a1f;
+  font-size: 22px;
+  font-weight: 800;
+}
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+.navLinks a {
+  color: #555;
+  font-size: 14px;
+}
+.navLinks a:hover,
+.navLinks .active {
+  color: #ff5a1f;
+}
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+nav .quoteBtn {
+  background: #ff5a1f;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: none;
+}
+nav select {
+  background: white;
+  border: 1px solid #e8dcc5;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #111111;
+  width: auto;
+}
+nav select:focus {
+  border-color: #e8dcc5; /* Overrides the global orange focus border for the navbar dropdown only */
+}
+
+/*hero section*/
+.contactContainer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 40px;
+}
+.contactHero {
+  margin-bottom: 60px;
+}
+.contactHero h1 {
+  font-size: 70px;
+  line-height: 1.1;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.contactHero p {
+  max-width: 650px;
+  font-size: 18px;
+}
+
+/*layout grid*/
+.contactGrid {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 35px;
+  align-items: start;
+}
+
+/*cards*/
+.contactCard,
+.formCard {
+  background: #131313;
+  color: white;
+  padding: 35px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.contactLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contactCard h2,
+.formCard h2 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.contactCard h3 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/*info items*/
+.infoItem {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+.infoItem span {
+  font-size: 28px;
+}
+.infoItem h4 {
+  color: #ff6d1f;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.infoItem a,
+.infoItem p {
+  color: #ddd;
+}
+.infoItem a:hover {
+  color: white;
+}
+.divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 25px 0;
+}
+
+/*office hours*/
+.hours {
+  list-style: none;
+}
+.hours li {
+  display: flex;
+  justify-content: space-between;
+  color: #ddd;
+  margin-bottom: 12px;
+}
+.hours .closed {
+  opacity: 0.5;
+}
+
+/*social*/
+.socials {
+  display: flex;
+  gap: 15px;
+}
+.socials a {
+  width: 45px;
+  height: 45px;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.socials a:hover {
+  background: #ff6d1f;
+}
+
+/*form*/
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+label {
+  display: block;
+  color: #ddd;
+  font-size: 13px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 15px;
+  background: #211f19;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  font-family: inherit;
+  outline: none;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #ff6d1f;
+}
+textarea {
+  margin-top: 10px;
+  resize: none;
+}
+button {
+  margin-top: 25px;
+  background: #ff6d1f;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
+button:hover {
+  background: #e85d12;
+}
+
+/*footer*/
+footer {
+  background: #131313;
+  color: white;
+  padding: 70px 60px 30px;
+}
+.footerGrid {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.footerGrid h2 {
+  color: #ff6d1f;
+}
+.footerGrid h3 {
+  margin-bottom: 20px;
+}
+.footerGrid a {
+  display: block;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+.footerGrid a:hover {
+  color: #ff6d1f;
+}
+.footerBottom {
+  max-width: 1200px;
+  margin: 50px auto 0;
+  padding-top: 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  gap: 30px;
+  color: #ccc;
+}
+
+@media (max-width: 900px) {
+  nav {
+    padding: 0 25px;
+  }
+  .navLinks {
+    display: none;
+  }
+  .contactContainer {
+    padding: 70px 25px;
+  }
+  .contactHero h1 {
+    font-size: 45px;
+  }
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+  .footerGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .footerGrid {
+    grid-template-columns: 1fr;
+  }
+  .contactHero h1 {
+    font-size: 38px;
+  }
+}
