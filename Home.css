@@ -14,7 +14,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 30 40px;
     border:#222222 solid 1px;
 }
 nav .logo{
@@ -26,6 +26,7 @@ nav .logo{
 nav ul{
     display: flex;
     list-style: none;
+    padding: 20 30px;
 justify-content: space-between;
 }
 nav ul li{
@@ -119,7 +120,7 @@ div .hero .hero-buttons{
     text-decoration: none;
     font-weight: bold;
     
-    margin-left: -130px;
+    margin-left: -90px;
 }
 div .hero span.hero-buttons button{
     background-color: #FF6D1F;
@@ -130,8 +131,8 @@ div .hero span.hero-buttons button{
     cursor: pointer;
     font-size: 20px;
     font: weight 600px;
-
 }
+
 div .hero span.hero-buttons button:hover{
     background-color: #e68856;
     opacity: 0.3;
@@ -141,6 +142,12 @@ div .hero span.hero-buttons button:last-child{
     color: #222222;
     border: solid #222222 1px;
 }
+div .hero span.hero-buttons button:last-child::after{
+    margin-left: 10px;
+    content: "→";
+  container-type: inherit;
+}
+
 div .hero span.hero-buttons button:last-child:hover{
     background-color: #000000;
     color: #faf3e1;
@@ -176,6 +183,9 @@ margin-left:30px;
     font-weight: 600;
     color:rgb(74 71 58 / var(--tw-text-opacity, 1));
 }
+
+/*OurServices section*/
+
 .OurServices{
     margin: 50px;
     margin-left: 50px;
@@ -185,50 +195,62 @@ margin-left:30px;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 .OurServices p{
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     opacity: 0.8;
+    margin-left: 20px;
 }
 .OurServices .service-container{
     display: flex;
     
-    margin-bottom:20px ;
+    margin-bottom:30px ;
 }
-.OurServices .service{
+.OurServices .service-container .service{
     display: block;
     background-color: #222222;
     color: #faf3e1;
     padding: 20px;
-    
-    margin-bottom:20px ;
+    margin-left: 30px;
     border: #faf3e1 solid 1px;
+    width: 900px;
+    height:300px;
 }
-.OurServices .service img{
+.OurServices .service-container .service img{
 width:30px;
 height: 30px;
-border: #faf3e1 soil 1px;
-border-radius: 20px;
+padding: 20px;
+border-radius: 60px;
+margin-bottom: 10px;
 }
-.OurServices .service h3{
+.OurServices .service-container .service h3{
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-left: 15px;
+    font-size: 25px;
 }
-.OurServices .service p{
+.OurServices .service-container .service p{
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
+    margin-left: 15px;
+    color:#e1bfb2;
+    opacity: 1;
+
 }
-.OurServices .service a{
+.OurServices .service-container .service a{
     text-decoration: none;
-    color: #faf3e1;
+    color: #f1e8e0;
     font-size: 14px;
     font-weight: 700;
     opacity: 0.8;
     text-transform: uppercase;
+    
+    margin-left: 15px;
 }
 
 .OurServices .service a:hover{
