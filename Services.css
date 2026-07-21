@@ -162,5 +162,51 @@ div  p{
     color: white;
     padding:7px;
     background-color: #444040;
+    margin-bottom: 15px;
  }
 
+.service a{
+
+    margin-top: 10px;
+    color:#FF6D1F;
+}
+
+.workprocess{
+    margin-left: 50px;
+}
+.workprocess h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+ .workprocess .process{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.workprocess .process .step{
+    background-color: #0e0e0e;
+    margin-left: 10px;
+    padding: 20px;
+}
+.workprocess .process .step .stepnumber{
+    border:whitesmoke solid 1px;
+    background-color: #ef8f74;
+    border-radius: 15px;
+    align-items: center;
+    width:20px ;
+    padding: 3px;
+    margin-bottom: 20px;
+} 
+.workprocess .process .step h3{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.workprocess .process .step p{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+
+}
