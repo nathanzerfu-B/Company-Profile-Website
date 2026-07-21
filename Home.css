@@ -80,11 +80,7 @@ nav .menu-btn.active i:after{
 
 
 /*hero section*/
-div{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 div .hero{
     justify-content: space-between;
     align-items: center;
@@ -261,30 +257,48 @@ margin-bottom: 10px;
     margin-left: 5px;
 }
 
-.whychooseus{
+ .whychooseus{
     margin: 50px;
-    margin-left: 50px;
+    margin-left: 90px;
     display:block;
 }
 .whychooseus h2{
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
-  justify-content: center;
+  text-align: center;
 }
-.whychooseus p{
+.whychooseus  p{
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     opacity: 0.8;
+  text-align: center;
 }
 .whychooseus .chooseus-container{
-    display: block;
+    display: flex;
     justify-content: space-between;
-    overflow-x: auto;
+    margin-bottom: 30px;
 }
+.whychooseus .chooseus-container  .chooseus-item{
+    display: block;
+   width:320px;
+}
+.chooseus-container .chooseus-item img{
+    width: 40px;
+    height: auto;
+    border-radius:30px ;
+    margin-bottom: 20px;
+}
+.chooseus-container .chooseus-item h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.chooseus-item   p{
+    text-align: left;
 
-
+}
 
 
 
