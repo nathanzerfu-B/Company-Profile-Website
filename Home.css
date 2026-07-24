@@ -162,7 +162,8 @@ margin-left:30px;
     border:#41403c solid 1px;
     padding:20px;
     height: 80px;
-    width: 100%;
+    width:1230px;
+
     align-items: center;
     background-color: #cdc6b6;
 }
@@ -500,7 +501,7 @@ footer {
 }
 .footer-sectionlinks{
      margin-left: 20px;
-     margin-right: 160px;
+     margin-right: 200px;
 }
 
 .footer-sectionlinks h3{
@@ -509,6 +510,8 @@ footer {
 }
 .footer-sectionlinks ul{
 margin-top: 15px;
+
+    width: max-content;
 }
 .footer-sectionlinks ul li{
     margin-top:10px;
@@ -529,6 +532,7 @@ margin-top: 15px;
 
 .footer-sectionServices{
  color: aliceblue;
+ width: 350px;
 
 }
 .footer-sectionServices h3 {
@@ -539,6 +543,7 @@ margin-top: 15px;
 .footer-sectionServices ul {
     list-style: none;
     
+    width: max-content;
 }
 .footer-sectionServices ul  li{
     margin-top:10px;
