@@ -186,7 +186,7 @@ flex-direction: row;
 
 
 .workprocess{
-    margin-left: 50px;
+  
     
 }
 .workprocess h2{
@@ -206,8 +206,8 @@ flex-direction: row;
     background-color: #0e0e0e;
     margin-left: 10px;
     padding: 20px;
-    width: 220px;
-    height: 125px;
+    width: 210px;
+    height: 130px;
     border-radius:6px ;
 }
 .workprocess .process .step .stepnumber{
