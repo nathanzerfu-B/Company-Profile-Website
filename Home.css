@@ -14,8 +14,7 @@ html, body {
 }
    
 nav{
-    height: 40px;
-    width: 1190px;
+    height: 70px;
     display: flex;
     align-items: center;
     padding: 20 60px;
@@ -59,16 +58,16 @@ nav .nav-button{
     flex-direction: row;
 }
 nav .GetQuote{
-    color:#222222;
+    color: #222222;
     background-color: #FF6D1F;
     text-decoration: none;
-    display:block;
+    display: block;
     width: 110px;
     height: 10px;
     font-size: 15px;
     font-weight: 500;
-    border:solid #FF6D1F 1px;
-    padding:10px 18px;
+    border: solid #FF6D1F 1px;
+    padding: 15px 18px;
     margin-right: 20px;
 }
 nav select {
@@ -356,9 +355,7 @@ padding: 40px 20px;
 
 .FeaturedProjects{
     display:block;
-  width: 100%;
-  margin-bottom: 50px;
-  height: 600px;
+  height: 490px;
 }
 .FeaturedProjects h2{
     font-size: 30px;
@@ -374,7 +371,7 @@ padding: 40px 20px;
 }
 
 .FeaturedProjects-iteam .project{
-margin-left: 30px;
+margin-left: 60px;
 }
 .FeaturedProjects-iteam .project img{
     width:360px;
@@ -406,7 +403,6 @@ color:#f7e6e2
 /*Testimonials*/
 .Testimonials{
    display:block;
-   width: 100%;
    margin-bottom: 50px;
    height: 400px;
    margin-left: 100px;
