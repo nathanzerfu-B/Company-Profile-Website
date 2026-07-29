@@ -178,12 +178,10 @@ margin-left:30px;
 
 .companylist{
     margin-bottom: 50px;
-    border:#41403c solid 1px;
     padding:20px;
-    height: 80px;
-    width:1230px;
-
-    align-items: center;
+    height: 50px;
+align-items: center;
+    
     background-color: #cdc6b6;
 }
   .companylist ul{
