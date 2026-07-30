@@ -353,7 +353,7 @@ padding: 40px 20px;
 
 .FeaturedProjects{
     display:block;
-  height: 490px;
+  height:500px;
   margin-bottom: 250px;
 }
 .FeaturedProjects h2{
@@ -372,13 +372,66 @@ padding: 40px 20px;
 .FeaturedProjects-iteam .project{
 margin-left: 40px;
 }
-.FeaturedProjects-iteam .project img{
+.FeaturedProjects-iteam .project .project-image{
     width:350px;
-    height: 280px;
+    height: 250px;
+    background-image: url(images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.FeaturedProjects-iteam .project span{
-    display: block;
-    margin-top: 30px;
+.FeaturedProjects-iteam .project .project-image .tech{
+    display: flex;
+justify-content: right;
+    margin-right: 20px;
+
+}
+
+.project .project-image div span{
+
+border:#000000 solid 1px;
+background-color: #000000;
+color :#f1e8e0;
+padding-left:3px;
+width:80px;
+height: 20px;
+margin-left: 10px;
+}
+
+.FeaturedProjects-iteam .project .project-image2{
+ width:350px;
+    height: 250px;
+    background-image: url(images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.project .project-image2 div span{
+
+border:#000000 solid 1px;
+background-color: #000000;
+color :#f1e8e0;
+padding-left:3px;
+width:80px;
+height: 20px;
+margin-left: 10px;
+}
+
+.FeaturedProjects-iteam .project .project-image3{
+     width:350px;
+    height: 250px;
+    background-image: url(images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project .project-image3 div span{
+
+border:#000000 solid 1px;
+background-color: #000000;
+color :#f1e8e0;
+padding-left:3px;
+width:80px;
+height: 20px;
+margin-left: 10px;
 }
 .FeaturedProjects-iteam .project span text{
 border:#000000 solid 1px;
