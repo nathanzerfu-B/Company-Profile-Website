@@ -379,11 +379,11 @@ margin-left: 40px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.FeaturedProjects-iteam .project .project-image .tech{
+.FeaturedProjects-iteam .project  .tech{
     display: flex;
 justify-content: right;
     margin-right: 20px;
-
+    padding-top: 15px;
 }
 
 .project .project-image div span{
@@ -391,10 +391,14 @@ justify-content: right;
 border:#000000 solid 1px;
 background-color: #000000;
 color :#f1e8e0;
-padding-left:3px;
-width:80px;
-height: 20px;
+padding:3px;
+width:60px;
+height: 15px;
+text-transform: uppercase;
 margin-left: 10px;
+font-size: small;
+font-weight: 550;
+text-align: center;
 }
 
 .FeaturedProjects-iteam .project .project-image2{
@@ -410,10 +414,14 @@ margin-left: 10px;
 border:#000000 solid 1px;
 background-color: #000000;
 color :#f1e8e0;
-padding-left:3px;
-width:80px;
-height: 20px;
+padding:3px;
+width:60px;
+height: 15px;
+text-transform: uppercase;
 margin-left: 10px;
+font-size: small;
+font-weight: 550;
+text-align: center;
 }
 
 .FeaturedProjects-iteam .project .project-image3{
@@ -428,11 +436,27 @@ margin-left: 10px;
 border:#000000 solid 1px;
 background-color: #000000;
 color :#f1e8e0;
-padding-left:3px;
-width:80px;
-height: 20px;
+padding:3px;
+width:35px;
+height: 15px;
+text-transform: uppercase;
 margin-left: 10px;
+font-size: small;
+font-weight: 550;
+text-align: center;
 }
+.project .project-image3 div span:last-child{
+
+padding:3px;
+width:95px;
+height: 15px;
+text-transform: uppercase;
+margin-left: 10px;
+font-size: small;
+font-weight: 550;
+text-align: center;
+}
+
 .FeaturedProjects-iteam .project span text{
 border:#000000 solid 1px;
 background-color: #000000;
