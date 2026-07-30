@@ -11,7 +11,7 @@ body{
     overflow-x: hidden;
 }
 nav{
-    height: 70px;
+    height: 80px;
     display: flex;
     align-items: center;
     padding: 20 60px;
